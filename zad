@@ -1,0 +1,140 @@
+1.
+{
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c;
+            c = a + b;
+            if (c % 2 == 0)
+            {
+                Console.WriteLine("liczba parzysta");
+            }
+            else
+            {
+                Console.WriteLine("liczba nieparzysta");
+            }
+2.
+  {
+                int a = int.Parse(Console.ReadLine());
+                int b = int.Parse(Console.ReadLine());
+                int c;
+                int d;
+                int f;
+                c = (a + b) / 2;
+                f = a * b;
+                Math.Sqrt(f);
+                if (c > f)
+                {
+                    Console.WriteLine("srednia arytmetyczna jest większa");
+                }
+                else
+                {
+                    Console.WriteLine("srednia geometryczna jest wieksza");
+                }
+
+
+
+            }
+3.
+  int k = int.Parse(Console.ReadLine());
+                int l = int.Parse(Console.ReadLine());
+                int m = int.Parse(Console.ReadLine());
+                if (k == l)
+                {
+                    Console.WriteLine("tak" + k + " " + l);
+                }
+                else
+                {
+                    Console.WriteLine("nie");
+                }
+                if (k == m)
+                {
+                    Console.WriteLine("tak" + k + " " + m);
+                }
+                else
+                {
+                    Console.WriteLine("nie");
+                }
+                if (l == m)
+                {
+                    Console.WriteLine("tak" + l + " " + m);
+                }
+                else
+                {
+                    Console.WriteLine("nie");
+                }
+4.
+
+                int a = int.Parse(Console.ReadLine());
+                int b = int.Parse(Console.ReadLine());
+                int c = int.Parse(Console.ReadLine());
+                int d = int.Parse(Console.ReadLine());
+                if (a < b && a < c && a < d)
+                {
+                    Console.WriteLine("najmniejsza z nich:" + a);
+                }
+                if (b < c && b < d && b < a)
+                {
+                    Console.WriteLine("najmniejsza z nich:" + b);
+                }
+                if (c < d && c < a && c < b)
+                {
+                    Console.WriteLine("najmniejsza z nich:" + c);
+                }
+                else
+                {
+                    Console.WriteLine("najmniejsza z nich:" + d);
+                }
+5.
+{
+
+                int a = int.Parse(Console.ReadLine());
+                int b = int.Parse(Console.ReadLine());
+                int c = int.Parse(Console.ReadLine());
+                if (a < b + c && c < a + b && b < a + c )
+                {
+                    Console.WriteLine("TAK");
+                }
+                else
+                {
+                    Console.WriteLine("NIE");
+                }
+
+            }
+6.
+ {
+                Console.WriteLine("podaj pierwszy kąt");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("podaj drugi kąt");
+                int b = int.Parse(Console.ReadLine());
+                Console.WriteLine("podaj trzeci kąt");
+                int c = int.Parse(Console.ReadLine());
+                
+                if (a + b + c == 180)
+                {
+                    if (90 > a && 90 > b && 90 > c)
+                    {
+                        Console.WriteLine("trojkąt ostrokatny");
+                    }
+                    if (90 > a && 90 > b && 90 == c)
+                    {
+                        Console.WriteLine("trojkąt prostakatny");
+                    }
+                    if (90 < a && 90 > b && 90 > c)
+                    {
+                        Console.WriteLine("trojkąt rozwartokatny");
+                    }
+                    else if (90 > a && 90 < b && 90 > c)
+                    {
+                        Console.WriteLine("trojkąt rozwartokatny");
+                    }
+                    else if (90 > a && 90 > b && 90 < c)
+                    {
+                        Console.WriteLine("trojkąt rozwartokatny");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("nie da sie zrobic z tego trojkata");
+                }
+
+            }
